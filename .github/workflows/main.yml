@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
       - name: 🔨 Simulate Build
         run: |
-          echo "Building the application..."
+          echo "Building the application  version4..."
           echo "Build completed at $(date)" > build-report.txt
           cat build-report.txt
  
